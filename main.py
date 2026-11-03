@@ -4,7 +4,7 @@ from facebook_business.adobjects.adaccount import AdAccount
 from facebook_business.adobjects.campaign import Campaign
 
 # 1. Fetch live user records from your Bubble.io database URL
-# Replace 'YOUR_BUBBLE_APP_NAME' with the name in your browser URL
+BUBBLE_DATABASE_URL = 'https://budgetguard-saas-test.bubbleapps.io/version-test/api/1.1/obj
 BUBBLE_DATABASE_URL = 'https://YOUR_BUBBLE_APP_NAME.bubbleapps.io/version-test/api/1.1/obj/User_Ad_Account'
 
 try:
